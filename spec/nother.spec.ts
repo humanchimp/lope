@@ -1,3 +1,4 @@
+import { expect } from "chai";
 
 describe("nother", () => {
   it("demonstrates that this idea is possible");
@@ -9,4 +10,14 @@ describe("nother", () => {
 
 describe("nother nother", () => {
   it("works");
+
+  it("works with watch", () => {
+    expect(true).to.be.true;
+  });
+
+  it("is much better than stable already!", () => {
+    expect("hi").to.equal("hi");
+
+    console.log('hello')
+  });
 });

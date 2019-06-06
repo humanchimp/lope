@@ -2,6 +2,7 @@ import babel from "@babel/core";
 import generate from "@babel/generator";
 import canter from "@topl/canter";
 import { promise as matched } from "matched";
+import { resolve } from "path";
 
 type Config =
   | {
@@ -67,6 +68,18 @@ export default function (options) {
         { sourceMaps: true, sourceFileName: filename },
         code
       );
+    },
+
+    async writeBundle() {
+      const path = resolve(process.cwd(), "./test-dist/test.js");
+
+      delete require.cache[require.resolve(path)]
+
+      const suite = require(path)();
+
+      for await (const report of suite.reports()) {
+        console.log(report);
+      }
     }
   };
 
