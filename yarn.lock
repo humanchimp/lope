@@ -696,10 +696,10 @@
   resolved "https://registry.yarnpkg.com/@sinonjs/text-encoding/-/text-encoding-0.7.1.tgz#8da5c6530915653f3a1f38fd5f101d8c3f8079c5"
   integrity sha512-+iTbntw2IZPb/anVDbypzfQa+ay64MW0Zo8aJ8gZPWMMK6/OubMVb6lUPMagqjOPnmtauXnFCACVl3O7ogjeqQ==
 
-"@topl/canter@^1.0.0":
-  version "1.0.2"
-  resolved "https://registry.yarnpkg.com/@topl/canter/-/canter-1.0.2.tgz#a4b0111a5a971b7bf1b0233d807272977b6a84f6"
-  integrity sha512-7m1xFQFwUgGSSNclC2OeEzkTJwqpJY9Whai/UieFPtRkHxhaBqyBdKFTLOmn0TwNuRr4xLF3+PaS5koPCklksA==
+"@topl/canter@^1.1.1":
+  version "1.1.1"
+  resolved "https://registry.yarnpkg.com/@topl/canter/-/canter-1.1.1.tgz#3957a7cddd8124e63f7b1c1631e2922b3e1a9fcd"
+  integrity sha512-TG5nzInDmFS0syb/w5Ex8D0FMgkibs0XWyVofNyLYrVsY0zBE/lC6D6ZVLFsq/6YMSFJcFd+8CySltiSmXbSUQ==
   dependencies:
     "@babel/traverse" "^7.4.5"
     "@babel/types" "^7.4.4"
