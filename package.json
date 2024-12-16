@@ -16,7 +16,7 @@
     "@babel/generator": "^7.4.4",
     "@babel/types": "^7.5.0",
     "@topl/hiho": "^1.0.0",
-    "@topl/stable": "^0.5.23",
+    "@topl/stable": "^0.5.24",
     "@topl/tack": "^1.0.6",
     "@wessberg/rollup-plugin-ts": "^1.1.64",
     "nyc": "^14.1.1",
